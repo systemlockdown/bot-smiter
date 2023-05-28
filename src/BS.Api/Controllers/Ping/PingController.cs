@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace BS.Api.Controllers
+namespace BS.Api.Controllers.Ping
 {
     [Route("api/[controller]")]
     [ApiController]
