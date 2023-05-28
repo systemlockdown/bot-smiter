@@ -2,16 +2,20 @@
 
 public class LetterBank
 {
-    public string CorrespondingLetter { get; set; }
+    public string CorrespondingLetterToLower { get; set; }
+    public string CorrespondingLetterToUpper { get; set; }
     public string EscapeSequence { get; set; }
     public string Unicode { get; set; }
     public string HtmlCode { get; set; }
+    public string Value { get; set; }
 
-    public LetterBank(string correspondingLetter, string escapeSequence, string unicode, string htmlCode)
+    public LetterBank(string value, string correspondingLetterToLower, string correspondingLetterToUpper, string escapeSequence, string unicode, string htmlCode)
     {
-        CorrespondingLetter = correspondingLetter;
+        CorrespondingLetterToLower = correspondingLetterToLower;
+        correspondingLetterToUpper = correspondingLetterToUpper;
         EscapeSequence = escapeSequence;
         Unicode = unicode;
         HtmlCode = htmlCode;
+        Value = value;
     }
 }

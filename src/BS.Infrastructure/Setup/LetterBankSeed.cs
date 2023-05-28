@@ -11,14 +11,9 @@ public class LetterBankSeed
 
     private static List<LetterBank> Generate()
     {
-        var list = new List<LetterBank>();
-
-        var cList = new List<LetterBank>
+        return new List<LetterBank>
         {
-            new ("C", "\u00A9", "U+00A2", "&#162;")
+            new ("¢", "c", "C", "\u00A9", "U+00A2", "&#162;")
         };
-        list.AddRange(cList);
-
-        return list;
     }
 }
