@@ -1,6 +1,6 @@
 ﻿namespace BS.Domain.DatabaseObjects;
 
-public abstract class Entity
+public abstract class DbEntity
 {
     public Guid Id { get; set; }
     public DateTime Created { get; set; }
