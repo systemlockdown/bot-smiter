@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS.Domain", "src\BS.Domain\BS.Domain.csproj", "{FA4FAC63-C0DC-487F-81B4-626CCACB7349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BS.Domain", "src\BS.Domain\BS.Domain.csproj", "{FA4FAC63-C0DC-487F-81B4-626CCACB7349}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DD282A09-99AF-4BBE-BDEB-0C2D3245056D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EF47CF40-E116-4CB8-9C90-7675F8B7D005}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS.Domain.Tests", "tests\BS.Domain.Tests\BS.Domain.Tests.csproj", "{2ABC5705-EF8C-47F9-BC37-835B06D4BE9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BS.Domain.Tests", "tests\BS.Domain.Tests\BS.Domain.Tests.csproj", "{2ABC5705-EF8C-47F9-BC37-835B06D4BE9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS.Infrastructure", "src\BS.Infrastructure\BS.Infrastructure.csproj", "{804CD77C-CC0A-45C4-A90D-4F3FD1ACF3F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BS.Infrastructure", "src\BS.Infrastructure\BS.Infrastructure.csproj", "{804CD77C-CC0A-45C4-A90D-4F3FD1ACF3F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS.Models", "src\BS.Models\BS.Models.csproj", "{031DC028-ED6E-4F44-A73E-9C7066BE7D05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BS.Models", "src\BS.Models\BS.Models.csproj", "{031DC028-ED6E-4F44-A73E-9C7066BE7D05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS.Shared.Tests", "tests\BS.Shared.Tests\BS.Shared.Tests.csproj", "{85CB7187-4C94-4B7D-8F8C-018C10C090FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BS.Shared.Tests", "tests\BS.Shared.Tests\BS.Shared.Tests.csproj", "{85CB7187-4C94-4B7D-8F8C-018C10C090FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS.Infrastructure.Tests", "tests\BS.Infrastructure.Tests\BS.Infrastructure.Tests.csproj", "{6A6C85AC-D8D8-4F44-8F0B-7166EE9D2916}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BS.Infrastructure.Tests", "tests\BS.Infrastructure.Tests\BS.Infrastructure.Tests.csproj", "{6A6C85AC-D8D8-4F44-8F0B-7166EE9D2916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS.Api", "src\BS.Api\BS.Api.csproj", "{C4B9DFD0-5C10-4BA1-8115-11665578E163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BS.Api.Tests", "tests\BS.Api.Tests\BS.Api.Tests.csproj", "{12B90010-918D-4B74-95A8-2047E37F339B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,14 @@ Global
 		{6A6C85AC-D8D8-4F44-8F0B-7166EE9D2916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A6C85AC-D8D8-4F44-8F0B-7166EE9D2916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A6C85AC-D8D8-4F44-8F0B-7166EE9D2916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B9DFD0-5C10-4BA1-8115-11665578E163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B9DFD0-5C10-4BA1-8115-11665578E163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B9DFD0-5C10-4BA1-8115-11665578E163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B9DFD0-5C10-4BA1-8115-11665578E163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B90010-918D-4B74-95A8-2047E37F339B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B90010-918D-4B74-95A8-2047E37F339B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B90010-918D-4B74-95A8-2047E37F339B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B90010-918D-4B74-95A8-2047E37F339B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +72,8 @@ Global
 		{031DC028-ED6E-4F44-A73E-9C7066BE7D05} = {DD282A09-99AF-4BBE-BDEB-0C2D3245056D}
 		{85CB7187-4C94-4B7D-8F8C-018C10C090FF} = {EF47CF40-E116-4CB8-9C90-7675F8B7D005}
 		{6A6C85AC-D8D8-4F44-8F0B-7166EE9D2916} = {EF47CF40-E116-4CB8-9C90-7675F8B7D005}
+		{C4B9DFD0-5C10-4BA1-8115-11665578E163} = {DD282A09-99AF-4BBE-BDEB-0C2D3245056D}
+		{12B90010-918D-4B74-95A8-2047E37F339B} = {EF47CF40-E116-4CB8-9C90-7675F8B7D005}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18B3B629-AF03-43DD-926D-2999E863889E}

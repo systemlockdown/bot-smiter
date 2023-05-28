@@ -2,6 +2,6 @@
 
 public record QuestionPromptModel
 {
-    public Guid QuestionId { get; set; }
+    public Guid Id { get; set; }
     public string Question { get; set; }
 }
