@@ -4,12 +4,7 @@ namespace BS.Infrastructure.Setup;
 
 public class UnicodeLetterSeed
 {
-    public static List<UnicodeLetter> GetLetterBanks()
-    {
-        return Generate();
-    }
-
-    private static List<UnicodeLetter> Generate()
+    public static List<UnicodeLetter> Generate()
     {
         return new List<UnicodeLetter>
         {
