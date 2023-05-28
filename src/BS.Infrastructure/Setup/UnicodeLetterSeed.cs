@@ -2,16 +2,16 @@
 
 namespace BS.Infrastructure.Setup;
 
-public class LetterBankSeed
+public class UnicodeLetterSeed
 {
-    public static List<LetterBank> GetLetterBanks()
+    public static List<UnicodeLetter> GetLetterBanks()
     {
         return Generate();
     }
 
-    private static List<LetterBank> Generate()
+    private static List<UnicodeLetter> Generate()
     {
-        return new List<LetterBank>
+        return new List<UnicodeLetter>
         {
             new ("¢", "c", "C", "\u00A9", "U+00A2", "&#162;"),
             new ("¥", "y", "Y", "\u00A5", "U+00A5", "&#165;"),
