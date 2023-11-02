@@ -11,5 +11,11 @@ namespace BS.Api.Controllers.Ping
         {
             return Ok();
         }
+
+        [HttpGet("authenticate")]
+        public IActionResult AuthenticationPing()
+        {
+            return Ok();
+        }
     }
 }
